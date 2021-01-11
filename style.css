@@ -1,0 +1,222 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/background-square-o1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;   
+  
+}
+
+/*========== HOME PAGE ==========*/
+
+#home-logo-img {
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+/*=====HOME PAGE MENU ======*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: #c90818;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px inset #c90818;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*========== MEALS PAGE ==========*/
+ 
+#meals{
+    padding-top: 50px;
+}
+.header {
+    background-color: #ffffff;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+}
+
+.header i{
+    float:left;
+    padding: 17px 0px 0px 17px;
+    color: gray;
+}
+
+/*=====MEALS PAGE MENU ======*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid #ffffff;
+    margin:10px;
+}
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding:10px;
+}
+.meals-list-item i{
+    float: right;
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+.body-meals{
+    background-image: url('images/backgroundnewport1.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+/*========== FOOD ITEM PAGE ==========*/
+
+#recipe {
+    padding-top: 50px;
+    }
+
+/*=====FOOD ITEM DETAILS ======*/
+
+.fooditem-details img{
+    width: 100%;
+    
+}
+
+.fooditem-details h1{
+    font size:25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+.fooditem-details-ingredients h2{
+    font-size: 20px;
+    text-align: left;
+    margin;0;
+    margin-left: 10px;
+}
+
+
+.fooditem-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.fooditem-details-info p{
+    font-size: 13px; 
+    display:block;
+}
+
+.fooditem-details-extras label {
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.fooditem-details-extras input {
+     margin-left: 15px;
+}
+    
+.fooditem-details-extras h2{
+    font-size: 20px;
+    text-align: left;
+    margin;0;
+    margin-left: 10px;
+}
+
+.fooditem-details-extras p{
+      margin-left: 15px;
+}
+
+.fooditem-details-extras{
+    padding-top: 20px;
+}
+
+.fooditem-details-extras a {
+  background-color: gray;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 15px;
+      
+}
+
+/*========== RESPONSIVE LAYOUTS ==========*/
+
+@media only screen and (min-width:600px) {
+    #meals  {
+        width: 80%;
+        margin:auto;    
+    }
+    
+        
+    }
+}
+
+
+@media only screen and (min-width:1000px) {
+    .#meals {
+        width: 60%;
+        margin:auto;    
+    }
+   
+}
+
+
+@media only screen and (min-width:1500px) {
+    #meals {
+        width: 40%;
+        margin:auto;    
+    }
+   
+}
+
+@media only screen and (min-width:720px) {
+    .body-meals {
+        background-image: url('images/background1land.jpg');
+    }
+}
+
